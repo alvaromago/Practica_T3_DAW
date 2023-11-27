@@ -57,7 +57,9 @@ public class PracticaT3Modelo extends HttpServlet {
 		out.println("<body class=\"text-center\">");
 		out.println("<h1 class=\"py-3\">¡Aquí tu resultado!</h1>");
 		out.println("<h5 class=\"pb-3\">Resultado: " + resultado + "</h5>");
-		out.println("<input type=\"submit\" value=\"Volver al inicio\" class=\"btn btn-success\"  />");
+		out.println("<form action=\"index.html\">");
+		out.println("<input type=\"submit\" value=\"Volver al inicio\" class=\"btn btn-success\" />");
+		out.println("</form>");
 		out.println("</body>");
 		out.println("</html>");
 	}
